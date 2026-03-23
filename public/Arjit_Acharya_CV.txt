@@ -1,0 +1,43 @@
+Arjit Acharya
+Phone: 9821974266
+Email: rajuacharya260@email.com
+LinkedIn: linkedin.com/in/arjitacharya
+Location: Kathmandu, Nepal
+
+Professional Summary
+Backend Java Developer with 1+ year of professional experience building secure and scalable applications using Java, Spring Boot, and Spring Security. Experienced in designing REST APIs, JWT authentication, Redis caching, and Docker-based deployments. Possess working knowledge of Angular for frontend integration.
+
+Professional Experience
+Cosmotech International Pvt. Ltd., Kathmandu, Nepal
+Backend Java Developer, 2024 – Present
+• Developed scalable backend services using Java 17/21 and Spring Boot.
+• Implemented secure JWT-based authentication and role-based authorization.
+• Designed and developed RESTful APIs.
+• Integrated Redis caching to improve performance and reduce database load.
+• Dockerized applications and documented APIs using Swagger/OpenAPI.
+
+Projects
+Futsal Booking Tournament Management System
+Spring Boot | Angular | JWT | Redis | MySQL | Docker
+• Built a complete futsal booking system with vendor and user modules.
+• Implemented slot-based booking, tournament scheduling, and result tracking.
+• Secured APIs using JWT and cached availability data with Redis.
+• Integrated backend REST APIs with Angular frontend.
+
+Student Management System
+Spring Boot | JPA | MySQL | Swagger
+• Developed CRUD modules for students, courses, attendance, and results.
+• Added pagination, filtering, and API documentation using Swagger.
+
+Education
+Bachelor in Information Management (BIM) (Running)
+Nepal Commerce Campus, Kathmandu
+• BIM is an IT and Management program affiliated with Tribhuvan University.
+• Coursework: Object Oriented Programming, Data Structures, Database Management Systems, Software Engineering, Web Technologies.
+
+Technical Skills
+Languages: Java, SQL, JavaScript, TypeScript
+Backend: Spring Boot, Spring Security, REST APIs, JWT
+Frontend: Angular (Basic), HTML, CSS
+Databases: MySQL, PostgreSQL
+Documentation: Swagger/OpenAPI
