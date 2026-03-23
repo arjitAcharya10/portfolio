@@ -1,6 +1,6 @@
 import React from 'react';
 import { User } from '../types/user';
-import { FiMapPin, FiBriefcase, FiAward } from 'react-icons/fi';
+import { FiMapPin, FiBriefcase } from 'react-icons/fi';
 
 interface ProfileCardProps {
   user?: User;
