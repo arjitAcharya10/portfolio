@@ -1,4 +1,4 @@
-@tailwind base;
+﻿@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -18,8 +18,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #172033;
 }
 
 code {
@@ -38,5 +38,670 @@ code {
 
   .card {
     @apply bg-gray-900 rounded-lg shadow-lg p-6 border-2 border-gray-700;
+  }
+}
+
+/* Portfolio theme */
+.portfolio-shell {
+  --ink: #201a3b;
+  --muted: #6b6680;
+  --line: #e8e3f0;
+  --accent: #7c3aed;
+  --highlight: #f97316;
+  background: #fffdfa;
+  color: var(--ink);
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  font-size: 16px;
+}
+
+.portfolio-shell .bg-black,
+.portfolio-shell .bg-\[\#111\] {
+  background-color: #ffffff !important;
+}
+
+.portfolio-shell .bg-gray-900,
+.portfolio-shell .bg-gradient-to-br.from-gray-900,
+.portfolio-shell .bg-gradient-to-b.from-black {
+  background-color: #ffffff !important;
+}
+
+.portfolio-shell .from-black,
+.portfolio-shell .to-black {
+  --tw-gradient-from: #ffffff var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(255 255 255 / 0) var(--tw-gradient-to-position);
+}
+
+.portfolio-shell .from-gray-900,
+.portfolio-shell .to-gray-900,
+.portfolio-shell .from-gray-800,
+.portfolio-shell .to-gray-800 {
+  --tw-gradient-from: #f8fafc var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(248 250 252 / 0) var(--tw-gradient-to-position);
+}
+
+.portfolio-shell .text-white {
+  color: var(--ink) !important;
+}
+
+.portfolio-shell .text-gray-200,
+.portfolio-shell .text-gray-300 {
+  color: #475569 !important;
+}
+
+.portfolio-shell .text-gray-400 {
+  color: var(--muted) !important;
+}
+
+.portfolio-shell .border-cyan-500\/20,
+.portfolio-shell .border-cyan-500\/30,
+.portfolio-shell .border-cyan-500\/50,
+.portfolio-shell .border-cyan-600,
+.portfolio-shell .border-cyan-700,
+.portfolio-shell .border-gray-700 {
+  border-color: var(--line) !important;
+}
+
+.portfolio-shell .bg-cyan-900\/20,
+.portfolio-shell .bg-cyan-900\/30,
+.portfolio-shell .bg-cyan-500\/20 {
+  background-color: #f0f9ff !important;
+}
+
+.portfolio-shell .bg-cyan-700 {
+  background-color: #cffafe !important;
+  color: #0e7490 !important;
+}
+
+.portfolio-shell .text-cyan-300 {
+  color: #0e7490 !important;
+}
+
+.portfolio-shell .text-cyan-400 {
+  color: var(--accent) !important;
+}
+
+.portfolio-shell .border-cyan-400,
+.portfolio-shell .border-cyan-500 {
+  border-color: #06b6d4 !important;
+}
+
+.portfolio-shell header nav {
+  background-color: rgb(255 255 255 / 0.9) !important;
+  border-color: var(--line) !important;
+  box-shadow: 0 1px 3px rgb(15 23 42 / 0.04);
+}
+
+/* Refined color and type system */
+.portfolio-shell {
+  background-image: linear-gradient(#f6f1fb 1px, transparent 1px),
+    linear-gradient(90deg, #f6f1fb 1px, transparent 1px);
+  background-size: 52px 52px;
+}
+
+.portfolio-shell h1,
+.portfolio-shell h2,
+.portfolio-shell h3,
+.portfolio-shell h4 {
+  font-family: "Avenir Next", Avenir, "Segoe UI", sans-serif;
+  letter-spacing: -0.045em;
+}
+
+.portfolio-shell p {
+  font-size: 0.98rem;
+  line-height: 1.75;
+}
+
+.portfolio-shell main > section:first-child {
+  background: #fffdfa !important;
+}
+
+.portfolio-shell main > section:first-child h1 {
+  font-size: clamp(3.35rem, 7vw, 6.4rem);
+  letter-spacing: -0.075em;
+}
+
+.portfolio-shell main > section:first-child h2 span:last-child {
+  color: var(--accent) !important;
+}
+
+.portfolio-shell main > section:first-child a:first-child {
+  background: var(--accent);
+  box-shadow: 0 8px 18px rgb(124 58 237 / 0.2);
+}
+
+.portfolio-shell main > section:first-child a:first-child:hover {
+  background: #6d28d9;
+}
+
+.portfolio-shell main > section:first-child a:nth-child(2):hover {
+  border-color: var(--accent);
+  background: #f5f3ff;
+}
+
+.portfolio-shell main > section:first-child > div:last-child > div > div:last-child {
+  background: #201a3b !important;
+  box-shadow: 22px 22px 0 #fed7aa, 0 25px 55px rgb(32 26 59 / 0.18);
+}
+
+.portfolio-shell main > section:not(:first-child) {
+  background: #fffdfa !important;
+}
+
+.portfolio-shell main > section:not(:first-child) h2 {
+  color: var(--accent) !important;
+}
+
+.portfolio-shell main > section:nth-child(2) .grid > div:last-child {
+  background: #f5f3ff !important;
+  border-color: #ddd6fe !important;
+}
+
+.portfolio-shell main > section:nth-child(2) .grid > div:last-child span {
+  color: #6d28d9 !important;
+  border-color: #ddd6fe !important;
+}
+
+.portfolio-shell .bg-cyan-900\/20,
+.portfolio-shell .bg-cyan-900\/30,
+.portfolio-shell .bg-cyan-500\/20 {
+  background-color: #f5f3ff !important;
+}
+
+.portfolio-shell .bg-cyan-700 {
+  background-color: #ede9fe !important;
+  color: #6d28d9 !important;
+}
+
+.portfolio-shell .text-cyan-300 {
+  color: #6d28d9 !important;
+}
+
+.portfolio-shell .text-cyan-400 {
+  color: var(--accent) !important;
+}
+
+.portfolio-shell .border-cyan-400,
+.portfolio-shell .border-cyan-500 {
+  border-color: #a78bfa !important;
+}
+
+.portfolio-shell footer {
+  background: #201a3b !important;
+}
+
+.portfolio-shell footer button {
+  background: #fb923c;
+  color: #201a3b;
+}
+
+.portfolio-shell header {
+  padding: 1rem 1.25rem 0;
+}
+
+.portfolio-shell header nav {
+  max-width: 1180px;
+  margin: 0 auto;
+  border: 1px solid #e2e8f0;
+  border-radius: 999px;
+}
+
+.portfolio-shell .shadow-xl,
+.portfolio-shell .shadow-2xl {
+  box-shadow: 0 20px 45px rgb(15 23 42 / 0.08);
+}
+
+.portfolio-shell section {
+  scroll-margin-top: 5rem;
+}
+
+.portfolio-shell .group:hover {
+  box-shadow: 0 12px 30px rgb(8 145 178 / 0.1);
+}
+
+/* Editorial portfolio layout */
+.portfolio-shell {
+  background-image: linear-gradient(#f8fafc 1px, transparent 1px),
+    linear-gradient(90deg, #f8fafc 1px, transparent 1px);
+  background-size: 48px 48px;
+}
+
+.portfolio-shell main > section:first-child {
+  min-height: 760px;
+  padding-top: 10rem;
+  padding-bottom: 7rem;
+  background: #fff !important;
+}
+
+.portfolio-shell main > section:first-child > div:last-child > div {
+  gap: 5rem;
+}
+
+.portfolio-shell main > section:first-child h1 {
+  max-width: 700px;
+  color: #172033 !important;
+  font-size: clamp(3.75rem, 8vw, 7.5rem);
+  letter-spacing: -0.08em;
+  line-height: 0.9;
+}
+
+.portfolio-shell main > section:first-child h2 {
+  margin-top: 1.5rem;
+  color: #64748b;
+  font-size: clamp(1.25rem, 2vw, 1.7rem);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.portfolio-shell main > section:first-child h2 span:last-child {
+  color: #0891b2 !important;
+}
+
+.portfolio-shell main > section:first-child p {
+  max-width: 33rem;
+  color: #64748b !important;
+  font-size: 1.05rem;
+}
+
+.portfolio-shell main > section:first-child a {
+  border-radius: 0.75rem;
+  text-transform: none;
+  letter-spacing: 0;
+  padding: 0.9rem 1.4rem;
+}
+
+.portfolio-shell main > section:first-child a:first-child {
+  background: #172033;
+  color: #fff;
+}
+
+.portfolio-shell main > section:first-child a:first-child:hover {
+  background: #0891b2;
+}
+
+.portfolio-shell main > section:first-child a:nth-child(2) {
+  border-color: #cbd5e1;
+  color: #172033;
+  background: #fff;
+}
+
+.portfolio-shell main > section:first-child a:nth-child(2):hover {
+  border-color: #0891b2;
+  background: #ecfeff;
+}
+
+.portfolio-shell main > section:first-child > div:last-child > div > div:last-child {
+  padding: 1.25rem;
+  background: #172033 !important;
+  border: 0;
+  border-radius: 2rem;
+  box-shadow: 22px 22px 0 #cffafe, 0 25px 55px rgb(15 23 42 / 0.18);
+  transform: rotate(2deg);
+}
+
+.portfolio-shell main > section:first-child > div:last-child > div > div:last-child > div {
+  border-radius: 1.25rem;
+  background: #0f172a !important;
+}
+
+.portfolio-shell main > section:first-child > div:last-child > div > div:last-child img {
+  object-fit: cover;
+  filter: saturate(0.85);
+}
+
+.portfolio-shell main > section:not(:first-child) {
+  background: #fff !important;
+  border-color: #f1f5f9 !important;
+}
+
+.portfolio-shell main > section:not(:first-child) h2 {
+  color: #0891b2 !important;
+  font-size: 0.75rem;
+  letter-spacing: 0.18em;
+}
+
+.portfolio-shell main > section:not(:first-child) h3 {
+  color: #172033 !important;
+  letter-spacing: -0.04em;
+}
+
+.portfolio-shell main > section:not(:first-child) > div > div > div {
+  border-radius: 1.25rem;
+}
+
+.portfolio-shell main > section:nth-child(2) .grid > div:first-child h3 {
+  font-size: clamp(2.2rem, 4vw, 4rem);
+  line-height: 1;
+}
+
+.portfolio-shell main > section:nth-child(2) .grid > div:last-child {
+  background: #f0f9ff !important;
+  border: 1px solid #bae6fd !important;
+  border-radius: 1.5rem;
+}
+
+.portfolio-shell main > section:nth-child(2) .grid > div:last-child h4 {
+  color: #172033 !important;
+}
+
+.portfolio-shell main > section:nth-child(2) .grid > div:last-child span {
+  border-radius: 0.5rem;
+  background: #fff !important;
+}
+
+.portfolio-shell footer {
+  background: #172033 !important;
+  border: 0;
+}
+
+.portfolio-shell footer p,
+.portfolio-shell footer a {
+  color: #cbd5e1 !important;
+}
+
+.portfolio-shell footer button {
+  background: #22d3ee;
+}
+
+@media (max-width: 768px) {
+  .portfolio-shell main > section:first-child {
+    min-height: auto;
+    padding-top: 8rem;
+  }
+
+  .portfolio-shell main > section:first-child > div:last-child > div {
+    gap: 3rem;
+  }
+
+  .portfolio-shell main > section:first-child > div:last-child > div > div:last-child {
+    max-width: 22rem;
+    margin: 0 auto;
+  }
+}
+
+/* Organic profile image treatment */
+.portfolio-shell .hero-photo {
+  min-height: 31rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.portfolio-shell .hero-photo::before {
+  content: "╱  ╱";
+  position: absolute;
+  top: 2rem;
+  left: 1.5rem;
+  z-index: 3;
+  color: #697386;
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0.4rem;
+  transform: rotate(-18deg);
+}
+
+.portfolio-shell .hero-photo::after {
+  content: "•";
+  position: absolute;
+  top: 4.8rem;
+  left: 0.9rem;
+  z-index: 3;
+  color: #697386;
+  font-size: 1.75rem;
+}
+
+.portfolio-shell .hero-photo > div:first-child {
+  inset: 0.5rem 1rem 1rem;
+  background: #eef0fb !important;
+  border-radius: 48% 52% 58% 42% / 45% 45% 55% 55%;
+  filter: none;
+  opacity: 1;
+  transform: rotate(-4deg);
+}
+
+.portfolio-shell .hero-photo > div:last-child {
+  width: min(100%, 31rem);
+  min-height: 31rem;
+  padding: 0;
+  overflow: visible;
+  border: 0 !important;
+  border-radius: 48% 52% 58% 42% / 45% 45% 55% 55%;
+  background: transparent !important;
+  box-shadow: none !important;
+  transform: none;
+}
+
+.portfolio-shell .hero-photo > div:last-child > div:first-child {
+  width: 100%;
+  height: 31rem;
+  overflow: hidden;
+  border-radius: 48% 52% 58% 42% / 45% 45% 55% 55%;
+  background: transparent !important;
+}
+
+.portfolio-shell .hero-photo > div:last-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+  border-radius: inherit;
+  mix-blend-mode: normal;
+  filter: saturate(1) contrast(1) brightness(1.08);
+}
+
+/* Override the legacy dark card selector so the portrait stays bright. */
+.portfolio-shell main > section:first-child > div:last-child > div > div:last-child > div {
+  background: transparent !important;
+}
+
+.portfolio-shell main > section:first-child > div:last-child > div > div:last-child > div img {
+  opacity: 1 !important;
+  mix-blend-mode: normal !important;
+  filter: saturate(1) contrast(1) brightness(1.08) !important;
+}
+
+.portfolio-shell .hero-photo > div:last-child::before {
+  display: none;
+}
+
+.portfolio-shell .hero-photo > div:last-child > div:last-child {
+  right: -0.5rem;
+  bottom: 4rem;
+  z-index: 4;
+  padding: 0.9rem 1.25rem;
+  border: 0;
+  border-radius: 0.9rem;
+  background: #ffffff !important;
+  box-shadow: 0 12px 28px rgb(15 23 42 / 0.1);
+  color: #172033 !important;
+  font-size: 0.76rem;
+  font-weight: 600;
+}
+
+.portfolio-shell .hero-photo > div:last-child > div:last-child span {
+  background: #36c978 !important;
+}
+
+/* The supplied artwork already contains its organic shape and availability badge. */
+.portfolio-shell .hero-photo > div:first-child,
+.portfolio-shell .hero-photo::before,
+.portfolio-shell .hero-photo::after,
+.portfolio-shell .hero-photo > div:last-child > div:last-child {
+  display: none;
+}
+
+.portfolio-shell .hero-photo > div:last-child {
+  width: min(100%, 35rem);
+  min-height: 0;
+  padding: 0;
+  border-radius: 0;
+  background: transparent !important;
+}
+
+.portfolio-shell .hero-photo > div:last-child > div:first-child {
+  height: auto;
+  aspect-ratio: 572 / 509;
+  border-radius: 0;
+  background: transparent !important;
+}
+
+.portfolio-shell .hero-photo > div:last-child img {
+  border-radius: 0;
+  object-fit: contain;
+  filter: none;
+}
+
+/* Reference-style navigation bar */
+.portfolio-shell header {
+  padding: 0;
+  background: #ffffff;
+}
+
+.portfolio-shell header nav {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  border: 0;
+  border-bottom: 1px solid #edf0f4;
+  border-radius: 0;
+  background: #ffffff !important;
+  box-shadow: none;
+}
+
+.portfolio-shell header nav > div {
+  max-width: 1110px;
+  min-height: 5.4rem;
+  padding: 0 1.25rem;
+  margin: 0 auto;
+}
+
+.portfolio-shell header nav > div > div:first-child {
+  font-family: "Segoe UI", Arial, sans-serif !important;
+  font-size: 1.15rem;
+  font-weight: 800;
+  letter-spacing: -0.07em;
+}
+
+.portfolio-shell header nav > div > div:first-child span {
+  color: #2563eb !important;
+}
+
+.portfolio-shell header nav > div > div:first-child span:nth-child(2) {
+  color: #2563eb !important;
+}
+
+.portfolio-shell header nav > div > div:nth-child(2) {
+  gap: 2.4rem;
+  align-self: stretch;
+}
+
+.portfolio-shell header nav a {
+  display: flex;
+  position: relative;
+  align-items: center;
+  height: 100%;
+  color: #202532 !important;
+  font-family: "Segoe UI", Arial, sans-serif !important;
+  font-size: 0.78rem;
+  font-weight: 500;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.portfolio-shell header nav a:hover {
+  color: #5146ff !important;
+}
+
+.portfolio-shell header nav a:first-child::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 1.1rem;
+  left: 0;
+  height: 2px;
+  background: #5146ff;
+}
+
+.portfolio-shell header nav a.nav-link::after {
+  content: none;
+}
+
+.portfolio-shell header nav a.nav-link.active-nav-link::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 1.1rem;
+  left: 0;
+  height: 2px;
+  background: #5146ff;
+}
+
+.portfolio-shell header nav button.hidden {
+  display: block;
+  border-radius: 0.85rem;
+  background: #2563eb !important;
+  color: #ffffff !important;
+  font-family: "Segoe UI", Arial, sans-serif !important;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 0.85rem 1.35rem;
+}
+
+.portfolio-shell header nav button.hidden:hover {
+  background: #1d4ed8 !important;
+}
+
+.portfolio-shell header nav button.bg-cyan-500 {
+  background: #2563eb !important;
+  color: #ffffff !important;
+}
+
+.portfolio-shell header nav button.bg-cyan-500:hover {
+  background: #1d4ed8 !important;
+}
+
+.portfolio-shell .hero-stats .certification-stat {
+  background-color: #2563eb !important;
+  background-image: none !important;
+}
+
+.portfolio-shell .hero-stats .certification-stat > div {
+  color: #ffffff !important;
+}
+
+@media (max-width: 768px) {
+  .portfolio-shell header {
+    padding: 0.75rem;
+  }
+
+  .portfolio-shell header nav {
+    border: 1px solid #edf0f4;
+    border-radius: 0.9rem;
+  }
+
+  .portfolio-shell header nav > div {
+    min-height: 4.25rem;
+    padding: 0 1rem;
+  }
+
+  .portfolio-shell header nav a:first-child::after {
+    bottom: -0.6rem;
+  }
+
+  .portfolio-shell header nav a.nav-link.active-nav-link::after {
+    bottom: -0.6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .portfolio-shell .hero-photo {
+    min-height: 24rem;
+  }
+
+  .portfolio-shell .hero-photo > div:last-child {
+    min-height: 24rem;
+  }
+
+  .portfolio-shell .hero-photo > div:last-child > div:first-child {
+    height: 24rem;
   }
 }

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { FiMenu, FiX, FiHome, FiUser, FiCode, FiAward } from 'react-icons/fi';
+import { FiMenu, FiX, FiHome, FiUser, FiAward } from 'react-icons/fi';
 
 interface SidebarProps {
   activeSection: string;
@@ -11,7 +11,6 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection, onSectionChange }) => 
 
   const navItems = [
     { id: 'profile', label: 'Profile', icon: <FiUser /> },
-    { id: 'skills', label: 'Skills', icon: <FiCode /> },
     { id: 'highlights', label: 'Highlights', icon: <FiAward /> },
     { id: 'projects', label: 'Projects', icon: <FiHome /> },
     { id: 'contact', label: 'Contact', icon: <FiUser /> },
